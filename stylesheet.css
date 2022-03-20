@@ -1,0 +1,277 @@
+/* Reset CSS (DO NOT DELETE) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+}
+
+/* Header */
+
+.active {
+  background-color: #889eab;
+} 
+
+.header {
+  background-color: #FF829A;
+  color: #fff;
+  height: 90px;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+
+.header-list {
+  float: left;
+}
+
+.header-list a {
+  color: snow;
+  display: block;
+  transition: all 0.5s;
+  padding: 35px 20px;
+  margin-right: 5px;
+  text-decoration: none;
+}
+
+.header-list li {
+  float: left;
+}
+.header-list li:hover
+{
+  background-color: rgb(174, 177, 177);
+}
+
+
+/* main*/
+.main-1 {
+  padding: 100px 80px 0 80px;
+}
+
+.main-2 {
+  padding: 40px 80px 0 80px;
+}
+
+.main-3 {
+  padding: 40px 80px 0 80px;
+}
+
+.main-4 {
+  padding: 40px 80px 0 80px;
+}
+
+/*copy contaner welcome*/
+
+.section-title1 {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+  text-align: left;
+}
+
+.copy-container {
+  text-align: center;
+  padding: 20px 10px 0;
+}
+
+.copy-container h1 {
+  font-size: 60px;
+  color: #3F5F90;
+}
+
+.copy-container h2 {
+  font-size: 50px;
+  color: #3F5F90;
+  padding-bottom: 10px;
+}
+
+p {
+  text-align: justify;
+  padding: 3px 0;
+  font-size: 18px;
+  text-indent: 40px;
+}
+
+.tengah {
+  text-align: center;
+  font-weight: bold;
+}
+
+
+/*contens Produk*/
+
+
+.contents {
+  height: 500px;
+  margin-top: 100px;
+}
+
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+
+
+.contents-item {
+  float: left;
+  margin-right: 55px;
+}
+
+.contents-item p {
+  width: 100%;
+  font-size: 24px;
+  margin-top: 10px;
+  text-indent: 80px;
+}
+
+.item {
+  width: 240px;
+  height: 280px;
+}
+
+/* Anggota*/
+.section-title2 {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 60px;
+}
+
+.contents-anggota1 {
+  height: 500px;
+  margin-top: 100px;
+  
+}
+
+.foto {
+  width: 210px;
+  height: 280px;
+  border: 2px solid #dee7ec ;
+}
+.contents-anggota {
+  float: left;
+  margin-right: 20px;
+}
+
+.contents-anggota p {
+  width: 100%;
+  font-size: 24px;
+  margin-top: 10px;
+  text-indent: 80px;
+  margin-bottom: 100px;
+}
+
+/*contact-form*/
+
+.section-title3 {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+
+.contact-form {
+  height: 400px;
+  margin-top: 100px;
+}
+
+.contact-form h1 {
+  text-align: center;
+  padding: 0px 30px;
+  font-size: 40px;
+  color: #191970;
+}
+.btn-form {
+  padding: 50px 30px;
+  text-align: center;
+}
+.btn {
+  border: 2px solid #dee7ec;
+  padding: 5px 30px;
+  font-size: 20px;
+  margin-right: 30px;
+}
+
+.facebook {
+  background-color: #3b5998;
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.youtube {
+  background-color: rgba(255, 0, 0, 0.815);
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.atau {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 60px;
+}
+
+.email {
+  background-color: rgba(255, 0, 0, 0.815);
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 5px 45px;
+}
+.btn:hover {
+  background-color: #FF829A;
+}
+
+/*footer*/
+
+.footer {
+  background-color: #191970;
+  color: #fff;
+  height: 150px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+  line-height: 120px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+}
+
+.footer p {
+  color: aqua;
+  
+}
+
+.nama {
+  text-align: center;
+  color: #dee7ec;
+}
+
+.kopi {
+  background-color: #3F5F90;
+}
